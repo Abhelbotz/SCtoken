@@ -38,7 +38,7 @@ def qrLogin():
     #Hasil : (qrcode=u'data:image/jpeg;base64, BlaBlaBla, verifier=u'32digit'
 
     #ambil qr.verifier 32digit dan print untuk proses Login
-    link = "line://au/q/" + qr.verifier
+    link = "https://line.me//R/au/q/" + qr.verifier
     print(link)
 
 #:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-#
